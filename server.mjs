@@ -1,7 +1,6 @@
 import express from 'express';
 import 'dotenv/config';
 import cors from 'cors';
-import asyncHandler from 'express-async-handler';
 import generateHex from './generate.mjs';
 
 const PORT = process.env.PORT;
