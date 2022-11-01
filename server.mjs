@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    const result = `#${generateHex()}${generateHex}${generateHex}`;
+    const result = `#${generateHex()}${generateHex()}${generateHex()}`;
     res.send(result);
 });
 
